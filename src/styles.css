@@ -1,0 +1,67 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+h1 {
+  background-color: lightblue;
+  font-size: 45px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.addform {
+  padding: 15px;
+  background-color: chocolate;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+select,
+input {
+  padding: 5px;
+  border-color: white;
+}
+.it {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+  padding: 10px; /* Adjust padding to create space within the item */
+  background-color: #7d5a42;
+  border-radius: 5px;
+  /* Ensure items can shrink if needed */
+  /* Allow items to grow to fill space horizontally */
+}
+
+.list {
+  background-color: #5a3e2b;
+  color: azure;
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 10px;
+  align-content: flex-start; /* Ensure items start from the top */
+  gap: 10px;
+  position: relative;
+}
+
+.ft {
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  background-color: aquamarine;
+  padding: 15px;
+  text-align: center;
+}
+
+.actions {
+  bottom: 25px;
+  position: absolute;
+  display: flex;
+  gap: 15px;
+}
